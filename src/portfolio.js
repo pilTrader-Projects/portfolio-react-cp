@@ -361,6 +361,7 @@ const contactInfo = {
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "(+63) 922 424 9174",
   email_address: "bbungalan@gmail.com"
+  
 };
 
 // Twitter Section
