@@ -9,28 +9,28 @@ const illustration = {
 };
 
 const greeting = {
-  username: "David Rakosi",
-  title: "Hi all, I'm David",
+  username: "Bong Bungalan Jr.",
+  title: "Hello, I'm Bong",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A Professional Forex Trader and a passionate Full Stack Software Developer 🚀 having experiences in creating and building Algorithm for automated trading strategies, scripts and indicators in MetaTrader 4/5 trading platform, as well as Web scraping with Python & BeautifulSoup. Right now I'm working on with my Web and Mobile App development skills with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
-  displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: false // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
-  // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
+  github: "https://github.com/ircNewbie",
+  linkedin: "https://www.linkedin.com/in/",
+  gmail: "bbungalan@gmail.com",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
+  // medium: "https://medium.com/@davidrakosi",
+  stackoverflow: "https://stackoverflow.com/users/13853188/bong-bungalan-jr",
+  instagram: 'https://www.instagram.com/piltrader_/',
+  twitter: 'https://twitter.com/pilTrader',
   display: true // Set true to display this section, defaults to false
 };
 
@@ -103,23 +103,22 @@ const educationInfo = {
   display: false, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "FreeCodeCamp",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Data Analysis with Python",
+      duration: "January 2021 - March 2021",
+      desc: "Road towards becoming a Data Scientist",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Data Analysis with Python Certification"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "University of Southeastern Philippines",
+      logo: require("./assets/images/harvardLogo.png"),
+      subHeader: "Bachelor of Science in Mathematics",
+      duration: "June 1992 - April 1997",
+      desc: "Just enough to be able to pass the State University degree - nothing extraordinary.",
+      descBullets: ["Graduated with below average rating"]
     }
   ]
 };
@@ -131,15 +130,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "20%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "0%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "90%"
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -151,34 +150,34 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
+      role: "Freelance Programmer",
+      company: "Upwork",
       companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
+      date: "August 2019 – Present",
       desc:
-        "Changing lives of developers one line of code at a time.",
+        "Learning by doing - facing Programming challenges headon!",
       descBullets: [
-        "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
+        "MetaTrader 4/5 Expert Advisor",
+        "MetaTrader 4/5 Custom Indicator",
+        "Web Scraping using Python & BS",
+        "Scripting & Automation"
       ]
     },
     {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
+      role: "Equity/Forex Trader & Investor",
+      company: "MB Holdings & Equity Venture",
       companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
+      date: "Jan 2011 – Present",
       desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
+        "Currency/Crypto/Stocks Trading & Investment management of MB Holdings. Conducts research and asset allocation.  ."
     },
     {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
+      role: "Professional Teacher",
+      company: "DepEd",
       companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
+      date: "July 2015 – Feb 2021",
       desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
+        "Public School Teacher."
     }
   ]
 };
@@ -310,7 +309,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -349,14 +348,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+  number: "(+63) 922 424 9174",
+  email_address: "bbungalan@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
+  userName: "pilTrader_", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
