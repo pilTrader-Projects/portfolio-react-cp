@@ -5,7 +5,8 @@
 ## <a href="https://piltrader-git.netlify.app/" target="_blank">LIVE DEMO</a>
 
 ## Description
-This is a ReactJS based personal resume website template for participants of The 6 Figure JavaScript ReactJS Challenge by Clever 
+This is a ReactJS based personal resume website template for participants of The 5-Day ReactJS Challenge by CleverProgrammer
+(Day 1 - Assignment)  
 
 ## Make it Your Own!
 #### PREREQUISITES:
