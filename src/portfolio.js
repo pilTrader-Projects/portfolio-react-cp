@@ -12,18 +12,18 @@ const greeting = {
   username: "Bong Bungalan Jr.",
   title: "Hello, I'm Bong",
   subTitle: emoji(
-    "A Professional Forex Trader and a passionate Full Stack Software Developer 🚀 having experiences in creating and building Algorithm for automated trading strategies, scripts and indicators in MetaTrader 4/5 trading platform, as well as Web scraping with Python & BeautifulSoup. Right now I'm working on with my Web and Mobile App development skills with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A Professional Forex Trader and a passionate (very soon! Full Stack ) Software Developer 🚀 having experiences in creating and building automated trading strategies, scripts and custom indicators in MetaTrader 4/5 trading platform. I also do webscraping with Python & BeautifulSoup. Just recently I am working on my Web and Mobile App development skills with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
-  displayGreeting: false // Set false to hide this section, defaults to true
+    "https://my.indeed.com/p/sq52w76",
+  displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
   github: "https://github.com/ircNewbie",
-  linkedin: "https://www.linkedin.com/in/",
+  linkedin: "https://www.linkedin.com/in/uradvisor",
   gmail: "bbungalan@gmail.com",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
@@ -38,14 +38,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY Programmer / Aspiring FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop / Build Automated Trading Strategy, Indicator and Scripts in MetaTrader 4/5"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Web Scraping using Python & BeautifulSoup"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Data Visualization and Statistical Analysis"
     )
   ],
 
@@ -61,10 +61,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+    // {
+    //   skillName: "BeautifulSoup",
+    //   fontAwesomeClassname: "fab fa-beautifuls"
+    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -78,8 +78,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "npm",
@@ -100,11 +100,11 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "FreeCodeCamp",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/fcodecamp.png"),
       subHeader: "Data Analysis with Python",
       duration: "January 2021 - March 2021",
       desc: "Road towards becoming a Data Scientist",
@@ -114,7 +114,7 @@ const educationInfo = {
     },
     {
       schoolName: "University of Southeastern Philippines",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/usep.png"),
       subHeader: "Bachelor of Science in Mathematics",
       duration: "June 1992 - April 1997",
       desc: "Just enough to be able to pass the State University degree - nothing extraordinary.",
@@ -129,16 +129,25 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "20%" //Insert relative proficiency in percentage
+      Stack: "Forex Trading", //Insert stack or technology you have experience in
+      progressPercentage: "95%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "0%"
+      Stack: "MQL4/MQL5 Programming", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
+    
     {
       Stack: "Programming",
       progressPercentage: "75%"
+    },
+    // {
+    //   Stack: "Backend",
+    //   progressPercentage: "0%"
+    // },
+    {
+      Stack: "Frontend / Design", //Insert stack or technology you have experience in
+      progressPercentage: "20%" //Insert relative proficiency in percentage
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -152,13 +161,12 @@ const workExperiences = {
     {
       role: "Freelance Programmer",
       company: "Upwork",
-      companylogo: require("./assets/images/cpLogo.png"),
+      companylogo: require("./assets/images/upwork.png"),
       date: "August 2019 – Present",
       desc:
         "Learning by doing - facing Programming challenges headon!",
       descBullets: [
-        "MetaTrader 4/5 Expert Advisor",
-        "MetaTrader 4/5 Custom Indicator",
+        "MetaTrader 4/5 Expert Advisor, Custom Indicator, Scripts",
         "Web Scraping using Python & BS",
         "Scripting & Automation"
       ]
@@ -166,15 +174,18 @@ const workExperiences = {
     {
       role: "Equity/Forex Trader & Investor",
       company: "MB Holdings & Equity Venture",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
+      companylogo: require("./assets/images/mbventures.jfif"),
       date: "Jan 2011 – Present",
       desc:
-        "Currency/Crypto/Stocks Trading & Investment management of MB Holdings. Conducts research and asset allocation.  ."
+        "Currency/Crypto/Stocks Trading & Investment management of MB Holdings.",
+      descBullets: [
+        "Conducts research, Evaluate Risk & Execute Money management.",
+        "Execute Trades, and Hedge "]
     },
     {
       role: "Professional Teacher",
       company: "DepEd",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
+      companylogo: require("./assets/images/deped.jfif"),
       date: "July 2015 – Feb 2021",
       desc:
         "Public School Teacher."
