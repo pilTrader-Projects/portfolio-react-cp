@@ -141,10 +141,10 @@ const techStack = {
       Stack: "Programming",
       progressPercentage: "75%"
     },
-    // {
-    //   Stack: "Backend",
-    //   progressPercentage: "0%"
-    // },
+    {
+      Stack: "Backend",
+      progressPercentage: "0%"
+    },
     {
       Stack: "Frontend / Design", //Insert stack or technology you have experience in
       progressPercentage: "20%" //Insert relative proficiency in percentage
@@ -197,43 +197,48 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
+  // REACT_APP_GITHUB_TOKEN = "13d6a1f9256cdf5a5c59f139eb11982087034fc4" 
+
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  githubUserName: "ircNewBie", // Change to your github username to view your profile in Contact Section.
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SLACK App (Clone)  Project ",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/slackLogoCC.png"),
+      projectName: "Slack-CloneApp",
+      projectDesc: "Slack application clone project that uses ReactJS Components / CSS / HTML for Front-end and Firebase for the Database.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "fa"
-        }
-        //  you can add extra buttons here.
+          name: "Visit Live Application",
+          url: "https://jsclone-slack.netlify.app/"
+        },
+        {
+          name: "Visit GitHub Repository",
+          url: "https://github.com/pilTrader-Projects/slack-clone-app"
+        },
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/AI2MT4Bridge.png"),
+      projectName: "A.I. To MT5-Bridge",
+      projectDesc: "An MQL5 Expert Advisor that accepts instruction from a ML model (Python) and trade. This EA provides tick data as well to the Model for training & learning.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: ""
+          name: "Created for a Client (Private Repository)",
+          url: "https://github.com/ircNewBie/AI_to_MT5_Bridge"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
